@@ -7,10 +7,12 @@ const postsRoutes = require("./routes/posts");
 const userRoutes = require("./routes/user");
 
 const app = express();
-// JDDP0oE7kyrLO82B
+
 mongoose
   .connect(
-    "mongodb+srv://yu:JDDP0oE7kyrLO82B@cluster0-b33wn.mongodb.net/node-angular?retryWrites=true&w=majority",
+    "mongodb+srv://yu:" +
+      process.env.MONGO_ATLAS_PW +
+      "@cluster0-b33wn.mongodb.net/node-angular?retryWrites=true&w=majority",
     { useUnifiedTopology: true, useNewUrlParser: true }
   )
   .then(() => {
