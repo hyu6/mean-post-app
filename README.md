@@ -1,8 +1,6 @@
-# MEAN Stack Content Posting Application
+# Content Sharing Web App
 
-[LINK](http://mean-post-app.s3-website.us-east-2.amazonaws.com/)
-
-This is a MEAN stack web application. Users can view, create, and modify posts containing texts and images.
+This is a MEAN stack web application. Users can view, create, and edit posts containing texts and images.
 
 Supports: Image and Text Posting, MIME Type Validation, Pagination, Post Editing and Deletion, Registration, Authentication, Authorization, Route Guard
 
